@@ -31,6 +31,20 @@ android {
     }
 }
 
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.github.AndreTorneiro'
+                artifactId = 'Bluetooth-Low-Energy-Library'
+                version = '0.5'
+            }
+        }
+    }
+}
+
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.7.0'

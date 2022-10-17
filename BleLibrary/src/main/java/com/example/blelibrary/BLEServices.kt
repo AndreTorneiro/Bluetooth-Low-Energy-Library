@@ -1,4 +1,4 @@
-package com.example.mylibrary
+package com.example.blelibrary
 
 import android.annotation.SuppressLint
 import android.bluetooth.*
@@ -9,8 +9,6 @@ import android.os.CountDownTimer
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
-import com.example.blelibrary.R
-import kotlinx.coroutines.*
 import java.util.*
 import kotlin.properties.Delegates
 
